@@ -52,7 +52,7 @@ module.exports = function(grunt) {
             port:  9002,
             hostname: 'localhost',
             livereload: 35729,
-            open:'http://<%= connect.options.hostname %>:<%= connect.options.port %>?baseApiUrl=https://localhost:8443'
+            open:'http://<%= connect.options.hostname %>:<%= connect.options.port %>?baseApiUrl=https://fineractsandbox.getwala.com'
         },
         livereload: {
             options: {
