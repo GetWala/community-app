@@ -35,3 +35,9 @@ Gruntfile-custom.js
 .sass-cache
 gems.locked
 .grunt/
+
+.classpath
+
+.project
+
+.settings/org.eclipse.buildship.core.prefs
