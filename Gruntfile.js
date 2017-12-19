@@ -413,6 +413,7 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-gh-pages')
+  grunt.loadNpmTasks('grunt-contrib-compass')
 
   // Run development server using grunt serve
   grunt.registerTask('serve', ['clean:server', 'copy:server', 'connect:livereload', 'watch']);
