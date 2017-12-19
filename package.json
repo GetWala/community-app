@@ -39,7 +39,8 @@
     "requirejs": "~2.1.9"
   },
   "scripts": {
-    "test": "grunt test --verbose"
+    "test": "grunt test --verbose",
+    "deploy-sandbox" : "grunt prod && aws s3 sync dist/community-app/ s3://wala-mifos-community-app-dev --profile sandbox"
   },
   "engines": {
     "node": ">=0.8.0"
